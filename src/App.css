@@ -8,15 +8,18 @@
   transition: 0.3s;
   background-color: white;
 }
+
 .main-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .todolist-header {
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .todo-list {
   margin-top: 40px;
 }
@@ -35,6 +38,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
+
 .todo-pending {
   border-bottom-style: solid;
   padding: 10px 20px;
@@ -112,6 +116,7 @@
 .delete-icon:hover {
   color: rgb(226, 106, 76);
 }
+
 .todo-input-form {
   text-align: center;
   display: flex;
@@ -124,8 +129,6 @@
   width: 93%;
   max-width: 100%;
   background-color: rgb(255, 255, 255);
-  border: 10px;
-  box-shadow: initial 0 0 0 2px;
   flex-flow: row wrap;
 }
 
@@ -146,6 +149,7 @@
   outline-style: none;
   outline-width: 0px;
 }
+
 .footer {
   position: fixed;
   left: 0;
