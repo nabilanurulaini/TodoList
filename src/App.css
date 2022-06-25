@@ -31,7 +31,7 @@
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(155, 135, 116);
+  background-color: rgb(105, 103, 103);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -84,7 +84,7 @@
 }
 
 .todo-mark-icon:hover {
-  color: wheat;
+  color: burlywood;
 }
 
 .todo-edit-delete-icon {
@@ -106,11 +106,11 @@
 }
 
 .edit-icon:hover {
-  color: #a75f5f;
+  color: burlywood;
 }
 
 .delete-icon:hover {
-  color: rgb(139, 0, 12);
+  color: rgb(226, 106, 76);
 }
 .todo-input-form {
   text-align: center;
@@ -145,4 +145,14 @@
 .todo-input-edit:focus-visible {
   outline-style: none;
   outline-width: 0px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
 }
