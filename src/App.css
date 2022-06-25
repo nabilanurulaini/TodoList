@@ -1,8 +1,5 @@
 /* todo list */
-body {
-  font: 1.3rem/1.25 Arial, sans-serif;
-  background-color: whitesmoke;
-}
+
 .main-container {
   max-width: 900px;
   margin: 50px auto;
@@ -34,7 +31,7 @@ body {
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  background-color: lightgray;
+  background-color: rgb(155, 135, 116);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -44,7 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: gray;
+  background-color: whitesmoke;
 }
 
 .todo-pending:first-child,
@@ -133,8 +130,8 @@ body {
 
 .todo-input-edit {
   width: 100%;
-  color: blue;
-  background-color: rgb(238, 238, 238);
+  color: brown;
+  background-color: whitesmoke;
 }
 
 .todo-input,
