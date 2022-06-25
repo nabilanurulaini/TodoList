@@ -53,7 +53,7 @@ const TodoForm = (props) => {
               autoComplete="off"
             />
             <MdAdd
-              size={45}
+              size={38}
               onClick={handleSubmit}
               className="delete-icon"
             />
