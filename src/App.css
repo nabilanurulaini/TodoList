@@ -128,7 +128,7 @@
   height: 50px;
   width: 93%;
   max-width: 100%;
-  flex-flow: rnpow wrap;
+  flex-flow: row wrap;
   border: none;
 }
 
