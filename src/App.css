@@ -1,0 +1,150 @@
+/* todo list */
+body {
+  font: 1.3rem/1.25 Arial, sans-serif;
+  background-color: whitesmoke;
+}
+.main-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+.main-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.todolist-header {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.todo-list {
+  margin-top: 40px;
+}
+
+.todo-pending {
+  border: 2px white;
+}
+
+.todo-completed {
+  border: 2px white;
+  border-bottom-style: solid;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.todo-pending {
+  border-bottom-style: solid;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.todo-pending:first-child,
+.todo-completed:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.todo-pending:last-child,
+.todo-completed:last-child {
+  border: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.todo-list-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.todo-item {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+}
+
+.todo-item p {
+  margin-bottom: 0px;
+}
+
+.todo-item del {
+  color: rgb(204, 26, 26);
+}
+
+/* *icons */
+
+.todo-mark-icon {
+  cursor: pointer;
+  font-size: 27px;
+}
+
+.todo-mark-icon:hover {
+  color: rgb(184, 48, 48);
+}
+
+.todo-edit-delete-icon {
+  padding: 0px 10px;
+}
+
+.todo-icons {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 5px;
+  margin-left: 10px;
+  color: black;
+}
+
+.edit-icon:hover {
+  color: #a75f5f;
+}
+
+.delete-icon:hover {
+  color: rgb(139, 0, 12);
+}
+.todo-input-form {
+  text-align: center;
+  display: flex;
+}
+
+.todo-input {
+  font-size: 15px;
+  padding: 5px;
+  height: 50px;
+  width: 93%;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0 0 0 2px;
+  flex-flow: row wrap;
+}
+
+.todo-input-edit {
+  width: 100%;
+  color: blue;
+  background-color: rgb(238, 238, 238);
+}
+
+.todo-input,
+.todo-input-edit {
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+
+.todo-input:focus-visible,
+.todo-input-edit:focus-visible {
+  outline-style: none;
+  outline-width: 0px;
+}
