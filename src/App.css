@@ -139,8 +139,8 @@
 
 .todo-input,
 .todo-input-edit {
-  border: 0px;
-  border-bottom: 1px solid black;
+  border: none;
+  border-bottom: 2px solid black;
 }
 
 .todo-input:focus-visible,
