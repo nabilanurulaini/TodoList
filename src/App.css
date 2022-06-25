@@ -73,7 +73,7 @@
 }
 
 .todo-item del {
-  color: rgb(204, 26, 26);
+  color: whitesmoke;
 }
 
 /* *icons */
@@ -84,7 +84,7 @@
 }
 
 .todo-mark-icon:hover {
-  color: rgb(184, 48, 48);
+  color: wheat;
 }
 
 .todo-edit-delete-icon {
@@ -124,7 +124,8 @@
   width: 93%;
   max-width: 100%;
   background-color: rgb(255, 255, 255);
-  box-shadow: inset 0 0 0 2px;
+  border: 10px;
+  box-shadow: initial 0 0 0 2px;
   flex-flow: row wrap;
 }
 
